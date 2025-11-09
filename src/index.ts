@@ -26,8 +26,8 @@ const asciiArt = `
 `
 
 console.log(chalk.redBright(asciiArt))
-console.log(chalk.cyanBright.bold('Scarry Death Baileys'))
-console.log(chalk.red('Makasih Sudah Menggunakan Baileys Ini Jangan Lupa Support @raraa_imuppp'))
+console.log(chalk.cyanBright.bold('Makasih Sudah Menggunakan Baileys Ini'))
+console.log(chalk.red('Jangan Lupa Support : @raraa_imuppp'))
 
 export type WASocket = ReturnType<typeof makeWASocket>
 export { makeWASocket }
